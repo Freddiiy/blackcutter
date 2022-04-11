@@ -38,7 +38,7 @@ def crop_imgs(imgs: list):
 def get_files():
     dir_list = []
     for file in listdir():
-        if file.endswith(".png") or file.endswith(".jpeg") or file.endswith(".bmp"):
+        if file.endswith(".png") or file.endswith(".jpeg") or file.endswith(".jpg") or file.endswith(".bmp"):
             dir_list.append(file)
 
     return dir_list
